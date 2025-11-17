@@ -59,3 +59,31 @@ Este es el mtodo *ms preciso* y recomendado para la deteccin de entidades que no
 | *Redstone (General)* | *Latencia y Reseteo.* | Requiere un sistema complejo de *reseteo* para que pueda detectar el siguiente movimiento, y el retraso de los repetidores limita la rapidez con que puede funcionar. |
 | *Bloques de Comandos* | *Complejidad y Rendimiento.* | Requiere una configuracin muy tcnica de Scoreboards y data tags. Un sistema que monitoriza constantemente la velocidad de muchas entidades puede causar *lag* (retraso) en el juego. |
 | *Ambos* | *Direccin Diagonal.* | El circuito generalmente solo funciona bien para detectar movimiento puro en un eje (Norte/Sur o Este/Oeste). La deteccin de un movimiento *diagonal* es mucho ms compleja de codificar. |
+
+
+## a) Representación Visual
+
+### ¿Cómo decidieron representar cada concepto?
+Decidimos representar los conceptos con los propios bloques y comando que nos permitía usar Minecraft
+
+### ¿Qué criterios usaron para el diseño visual?
+Decidimos al ser una versión Alpha usar un modelo minimalista que muestre que vamos a hacer en el proyecto y dejar unos carteles que expliquen cada cosa
+
+### ¿Por qué eligieron determinados colores, formas, o disposiciones espaciales?
+La estructura rectangular fue construida para darles más espacio a las entidades y no terminarán bugueando el sistema se utilizó la redstone para conectar los ganchos activadores a las lámparas para que cada que una entidad lo active esta se encienda, los bloques de comando se usaron para poder usar comandos para activar las cámaras y desactivar la interfaz del usuario
+
+### Justificación de sus decisiones de diseño
+Como ya se ha dicho esta es una versión Alpha así que decidimos hacer una estructura bastante minimalista y algo rebuscada pero que cumpla con el objetivo de este proyecto
+
+---
+
+## b) Proceso de Desarrollo
+
+### ¿Cómo construyeron el mundo?
+Decidimos usar la versión Bedrock del juego ya que este en su modo experimental nos da acceso a varios comandos de prueba como el que usamos /camera, se decidió usar un mundo plano para evitar que otras entidades interfieran y evitar tener que aplanar un terreno para hacer el proyecto
+
+### ¿Qué herramientas utilizaron?
+Se usaron bloques de comando, bloques de madera, cuerda, redstone, lámparas, ganchos de presión, comparadores, antorchas de redstone, aldeanos
+
+### ¿Qué desafíos encontraron y cómo los resolvieron?
+Al no saber usar bien los bloques de comando correctamente y los comandos nuevos del modo experimental tuvimos que investigar en youtube y en la IA Gemini cómo usarlos correctamente para poder seguir de manera óptima el proyecto
