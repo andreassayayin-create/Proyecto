@@ -106,7 +106,7 @@ La detección se basa en el principio de la **secuencia temporal**: determinar q
 
 * **Método Creativo (Bloques de Comandos):**
     * **Herramientas:** **Bloques de Comandos** y **Scoreboards**.
-    * **Mecanismo:** Es el más preciso. Se usa el comando `/execute` junto con `/data get entity` y un **Scoreboard** para rastrear la posición.
+    * **Mecanismo:** Es el más preciso. Se usa el comando `execute` junto con `data get entity` y un **Scoreboard** para rastrear la posición.
         1.  El sistema guarda la **posición actual** (eje X o Z) de la entidad en un *Scoreboard* (`Pos_Actual`).
         2.  En el siguiente *tick* de juego, compara esa posición con la que guardó en el *tick* anterior (`Pos_Anterior`).
         3.  Si $\text{Pos\_Actual} > \text{Pos\_Anterior}$, se mueve en dirección positiva (ej. Este). Si $\text{Pos\_Actual} < \text{Pos\_Anterior}$, se mueve en dirección negativa (ej. Oeste).
