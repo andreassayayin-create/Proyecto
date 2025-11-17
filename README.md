@@ -24,6 +24,7 @@ Se pueden usar varios mtodos, aunque cada uno tiene sus limitaciones en cuanto a
 Existen dos enfoques principales, dependiendo si ests en Supervivencia o Creativo:
 
 ### A. Mtodo de Redstone (Supervivencia)
+![aedb0eeb-76d4-4751-a225-942cb0608751](https://github.com/user-attachments/assets/aa0e9c51-4f99-4805-bb21-9d7a7554e16f)
 
 Este mtodo utiliza el tiempo de retardo de los *Repetidores* para determinar qu seal lleg primero.
 
@@ -36,6 +37,7 @@ Este mtodo utiliza el tiempo de retardo de los *Repetidores* para determinar qu 
 * *Esquema Bsico:* La seal de cada detector (A y B) se dirige a un *Circuito T-Flip Flop* o a un circuito de *bloqueo de pistn* que solo permite pasar la seal que llega primero, bloqueando instantneamente la otra.
 
 ### B. Mtodo de Bloques de Comandos (Creativo)
+![dc7e1c34-1276-43f1-af60-96239f4527df](https://github.com/user-attachments/assets/41e403b1-6e22-43e2-8a00-55679014e414)
 
 Este es el mtodo *ms preciso* y recomendado para la deteccin de entidades que no son Minecarts (como jugadores o flechas), ya que puede leer el vector de movimiento real.
 
@@ -48,6 +50,8 @@ Este es el mtodo *ms preciso* y recomendado para la deteccin de entidades que no
 ---
 
 ## 3.  Limitaciones
+<img width="1338" height="231" alt="Captura de pantalla 2025-11-15 184227" src="https://github.com/user-attachments/assets/39478b7c-583a-44e1-accc-4495ef0f9f87" />
+<img width="1069" height="131" alt="Captura de pantalla 2025-11-15 184234" src="https://github.com/user-attachments/assets/fdb632de-f1bd-4cbf-85c8-6c7d85e50fa2" />
 
 | Mtodo | Limitacin Principal | Consecuencia |
 | :--- | :--- | :--- |
