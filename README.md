@@ -1,6 +1,11 @@
 # Proyecto
-
-
+Autores 
+Andreas Granados Muñoz
+Gustavo Elias Nieves Perez 
+Julio Eduardo Guerrero Campos
+Emiliano Galindo 
+Abraham Lopez Guerra
+Sebastian Ramirez
 
 ## Deteccin de Movimiento Lateral en Minecraft
 
